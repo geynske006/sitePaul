@@ -75,7 +75,7 @@ nav{
 
 
 
-@media only screen and (max-width: 780px){
+@media only screen and (max-width: 950px){
 	li{
 		display:block;
 	}
@@ -97,8 +97,6 @@ nav{
 	}
 }
 @media only screen and (max-width: 500px){
-
-
 	#home{
 	padding-top: 60%;
 	}
@@ -132,5 +130,3 @@ nav{
 		padding-top: 190%;
 	}
 }
-
-
