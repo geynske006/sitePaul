@@ -1,4 +1,4 @@
 sitePaul
 ========
 
-Site for my uncle. A small project I started. 
+Site for my uncle. A small project I started. ..
