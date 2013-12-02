@@ -85,7 +85,7 @@
 						<p>Mijn passie voor de oudheid is al heel vroeg begonnen, ik ben gestart als restaurateur van oude gebouwen en natuursteen.</p>
 						<p>Na 20 jaar ervaring is mijn specialisatie vooral oude patines terug tot leven brengen. Nu gebruik ik heel oude objecten met als doel deze te plaatsen in de hedendaagse leefomgeving. Ieder object moet dan ook uniek zijn, het moet rust en sereniteit uitstralen zonder daarbij te raken aan de originele kracht en authenticiteit van het geheel.</p>
 						<p>Elke toevoeging aan de eenvoud van interieur stuurt je gegarandeerd naar de wereld van zelfvertrouwen. Een zoektocht naar iets anders, een ander interieur, een ruimer bestaan, de gloed van een leven en eenheid met alles wat bestaat. Een levenswijze van doorleefde objecten, maar er zit zoveel meer in. De energie die dan vrijkomt, zet je hele leven op een andere manier in vuur en vlam!</p>
-						<p>Niet aarzelen, doen!</p>
+						
 					</div>
 					<hr />
 				</div>
