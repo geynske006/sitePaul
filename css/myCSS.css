@@ -6,9 +6,7 @@ li{
 	display: inline;
 }
 nav{
-
 	background-color: #ffffff;
-	/*background-color: red;*/
 }
 .button{
 	background-color: #EBDA36;
@@ -26,6 +24,11 @@ nav{
 	width: 100%;
 	margin: 0 auto;
 }
+#menu_mobile{
+	width: 100%;
+	margin: 0 auto;
+}
+
 #logo{
 	width: 150px;
 	margin-left: 5%;
@@ -71,6 +74,11 @@ nav{
 	width: 250px;
 	margin: 0 auto;
 }
+#menuMinified{
+	width: 80px;
+	float: left;
+	margin: 200px auto;
+}
 }
 
 
@@ -108,7 +116,7 @@ nav{
 	}
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px){
+/*@media only screen and (min-width: 320px) and (max-width: 480px){
 	#home{
 	padding-top: 120%;
 	}
@@ -129,4 +137,4 @@ nav{
 	#myWork{
 		padding-top: 190%;
 	}
-}
+}*/

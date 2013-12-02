@@ -26,7 +26,6 @@
 </script>
 </head>
 <body>
-
 	<div class="fixed" id="menu">
 		<nav>
 			<ul>
@@ -38,6 +37,20 @@
 			</ul>
 		</nav>
 	</div>
+
+	<!--<div id="menu_mobile">
+		<a href="#home"><img src="./img/logo.png" id="logo" alt=""></a>
+		<img src="./img/3.png" id="menuMinified"  />
+		<ul id="menuTest" onclick="hideMenu()" style="display:none" >
+				<li id="btnMenu"><a href="#home" class="button" >Home</a></li>
+				<li ><a href="#aboutMe" class="button" >Meer over mezelf</a></li>
+				<li><a href="#myWork"  class="button" >Mijn werk</a></li>
+				<li ><a href="#contact"  class="button" >Contact</a></li>
+		</ul>
+	</div>-->
+
+	
+
 
 	<div id="home" class="row" >
 		<div class="large-12 columns">
@@ -232,6 +245,17 @@
         }
       });
     });
+  </script>
+  <script>
+	  	if($(window).width() < 500){ 
+
+				$("#menu").removeClass("fixed");
+		}
+  </script>
+  <script>
+$(window).bind('orientationchange', function(event) {
+  	$("#menu").removeClass("fixed");
+});
   </script>
 
 </body>
