@@ -39,20 +39,6 @@
 		</nav>
 	</div>
 
-	<!--<div id="menu_mobile">
-		<a href="#home"><img src="./img/logo.png" id="logo" alt=""></a>
-		<img src="./img/3.png" id="menuMinified"  />
-		<ul id="menuTest" onclick="hideMenu()" style="display:none" >
-				<li id="btnMenu"><a href="#home" class="button" >Home</a></li>
-				<li ><a href="#aboutMe" class="button" >Meer over mezelf</a></li>
-				<li><a href="#myWork"  class="button" >Mijn werk</a></li>
-				<li ><a href="#contact"  class="button" >Contact</a></li>
-		</ul>
-	</div>-->
-
-	
-
-
 	<div id="home" class="row" >
 		<div class="large-12 columns">
 			<h2>Paul Vanhoutte</h2>
@@ -96,17 +82,13 @@
 					<div class="panel">
 						<?php 
 							$dirB = "./img/big/";
-							$dirS = "./img/small/";
-
 							$imgB = glob($dirB . "*.jpg");
-							/*$imgS = glob($dirS . "*.jpg");*/
-
 
 							foreach ($imgB as $b) {
 									echo "	
-											<a class='fancybox' data-fancybox-group='gallery'   href='$b'>
-												<img class='afb' src='$b' alt=''/>
-											</a>";
+										<a class='fancybox' data-fancybox-group='gallery'   href='$b'>
+											<img class='afb' src='$b' alt=''/>
+										</a>";
 							} 
 						 ?>
 					</div>
