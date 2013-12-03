@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -15,17 +16,17 @@
     <link rel="stylesheet" type="text/css" href="./js/fancybox/jquery.fancybox.css" media="screen" />
 
     <link rel="stylesheet" href="./css/flexslider.css" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-	<script src="./js/flexslider/jquery.flexslider.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>-->
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="./js/flexslider/jquery.flexslider-min.js"></script>
 
 	<script type="text/javascript">
-  $(window).load(function() {
+  $(document).ready(function() {
     $('.flexslider').flexslider();
   });
 </script>
 </head>
 <body>
-
 	<div class="fixed" id="menu">
 		<nav>
 			<ul>
@@ -43,7 +44,8 @@
 			<h2>Paul Vanhoutte</h2>
 			<div>De zoektocht van iets ouds naar iets moderns start hier.</div>
 			<hr />
-			<div id="slideIT">			<div class="flexslider">
+			<div id="slideIT">
+				<div class="flexslider">
 				  <ul class="slides">
 				    <li>
 				      <img src="./img/big/914.jpg" alt=""/>
@@ -55,7 +57,8 @@
 				      <img src="./img/big/566.jpg" alt=""/>
 				    </li>
 				  </ul>
-			</div></div>
+				</div>
+			</div>
 		</div>
 	</div>
 
@@ -68,7 +71,7 @@
 						<p>Mijn passie voor de oudheid is al heel vroeg begonnen, ik ben gestart als restaurateur van oude gebouwen en natuursteen.</p>
 						<p>Na 20 jaar ervaring is mijn specialisatie vooral oude patines terug tot leven brengen. Nu gebruik ik heel oude objecten met als doel deze te plaatsen in de hedendaagse leefomgeving. Ieder object moet dan ook uniek zijn, het moet rust en sereniteit uitstralen zonder daarbij te raken aan de originele kracht en authenticiteit van het geheel.</p>
 						<p>Elke toevoeging aan de eenvoud van interieur stuurt je gegarandeerd naar de wereld van zelfvertrouwen. Een zoektocht naar iets anders, een ander interieur, een ruimer bestaan, de gloed van een leven en eenheid met alles wat bestaat. Een levenswijze van doorleefde objecten, maar er zit zoveel meer in. De energie die dan vrijkomt, zet je hele leven op een andere manier in vuur en vlam!</p>
-						<p>Niet aarzelen, doen!</p>
+						
 					</div>
 					<hr />
 				</div>
@@ -77,70 +80,17 @@
 			<div class="row">
 				<div class="large-12 columns">
 					<div class="panel">
-							<a class="fancybox" data-fancybox-group="gallery"   href="./img/big/dscn1094.jpg">
-								<img class="afb" src="./img/small/dscn1094.jpg" alt=""/>
-							</a> 
-							<a class="fancybox" data-fancybox-group="gallery" href="./img/big/dscn1096.jpg">
-								<img class="afb" src="./img/small/dscn1096.jpg" alt=""/>
-							</a>
-							<a class="fancybox" data-fancybox-group="gallery" href="./img/big/dscn1102.jpg">
-								<img class="afb" src="./img/small/dscn1102.jpg" alt=""/>
-							</a>
-							
-							<a class="fancybox" data-fancybox-group="gallery" href="./img/big/dscn1244.jpg">
-								<img class="afb" src="./img/small/dscn1244.jpg" alt=""/>
-							</a>
-							<a class="fancybox" data-fancybox-group="gallery" href="./img/big/dscn1246.jpg">
-								<img class="afb" src="./img/small/dscn1246.jpg" alt=""/>
-							</a>
-							<a class="fancybox" data-fancybox-group="gallery" href="./img/big/dscn12641.jpg">
-								<img class="afb" src="./img/small/dscn12641.jpg" alt=""/>
-							</a>
-							<a class="fancybox" data-fancybox-group="gallery" href="./img/big/dscn12642.jpg">
-								<img class="afb" src="./img/small/dscn12642.jpg" alt=""/>
-							</a>							
-							<a class="fancybox" data-fancybox-group="gallery" href="./img/big/dscn12646.jpg">
-								<img class="afb" src="./img/small/dscn12646.jpg" alt=""/>
-							</a>							
-							<a class="fancybox" data-fancybox-group="gallery" href="./img/big/dscn12644.jpg">
-								<img class="afb" src="./img/small/dscn12644.jpg" alt=""/>
-							</a>							
-							<a class="fancybox" data-fancybox-group="gallery" href="./img/big/dscn12645.jpg">
-								<img class="afb" src="./img/small/dscn12645.jpg" alt=""/>
-							</a>
-							<!--
-								<a class="fancybox" data-fancybox-group="gallery" href="./img/big/.jpg">
-								<img class="afb" src="./img/small/.jpg" alt=""/></a>
-							</a>
-							-->
-							<a class="fancybox" data-fancybox-group="gallery" href="./img/big/571.jpg">
-								<img class="afb" src="./img/small/571.jpg" alt=""/></a>
-							<a class="fancybox" data-fancybox-group="gallery" href="./img/big/563.jpg">
-								<img class="afb" src="./img/small/563.jpg" alt=""/></a>
-							<a class="fancybox" data-fancybox-group="gallery" href="./img/big/566.jpg">
-								<img class="afb" src="./img/small/566.jpg" alt=""/></a>
-							<a class="fancybox" data-fancybox-group="gallery" href="./img/big/567.jpg">
-								<img class="afb" src="./img/small/567.jpg" alt=""/></a>
-							<a class="fancybox" data-fancybox-group="gallery" href="./img/big/569.jpg">
-								<img class="afb" src="./img/small/569.jpg" alt=""/></a>
+						<?php 
+							$dirB = "./img/big/";
+							$imgB = glob($dirB . "*.jpg");
 
-							<a class="fancybox" data-fancybox-group="gallery" href="./img/big/905.jpg">
-								<img class="afb" src="./img/small/905.jpg" alt=""/></a>
-							<a class="fancybox" data-fancybox-group="gallery" href="./img/big/908.jpg">
-								<img class="afb" src="./img/small/908.jpg" alt=""/></a>
-							<a class="fancybox" data-fancybox-group="gallery" href="./img/big/909.jpg">
-								<img class="afb" src="./img/small/909.jpg" alt=""/></a>
-							<a class="fancybox" data-fancybox-group="gallery" href="./img/big/912.jpg">
-								<img class="afb" src="./img/small/912.jpg" alt=""/></a>
-							<a class="fancybox" data-fancybox-group="gallery" href="./img/big/914.jpg">
-								<img class="afb" src="./img/small/914.jpg" alt=""/></a>							
-
-							<a class="fancybox" data-fancybox-group="gallery" href="./img/big/1916.jpg">
-								<img class="afb" src="./img/small/1916.jpg" alt=""/></a>							
-							<a class="fancybox" data-fancybox-group="gallery" href="./img/big/1917.jpg">
-								<img class="afb" src="./img/small/1917.jpg" alt=""/></a>
-							<a class="fancybox" data-fancybox-group="gallery" href="./img/big/1920.jpg">
-								<img class="afb" src="./img/small/1920.jpg" alt=""/></a>
+							foreach ($imgB as $b) {
+									echo "	
+										<a class='fancybox' data-fancybox-group='gallery'   href='$b'>
+											<img class='afb' src='$b' alt=''/>
+										</a>";
+							} 
+						 ?>
 					</div>
 					<hr />
 
@@ -155,7 +105,7 @@
 
 									<div id="contactGev">
 										<p><b>GSM:</b> 0477 / 36 26 48</p>
-										<p><b>Email:</b> p.vanhoutte@telenet.be</p>
+										<p><b>Email:</b> vanhoutte.p@telenet.be</p>
 									</div>
 								</div>
 							</div>
@@ -170,10 +120,10 @@
 	<!--SCRIPTS voor laadtijden-->
 
 
-		<script>
+<script>
     $(document).foundation();
 </script>
-	<script type="text/javascript" src="./js/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="./js/fancybox/jquery.fancybox.pack.js"></script>
 <script type="text/javascript">
 	
 	$(document).ready(function() {
@@ -229,6 +179,17 @@
         }
       });
     });
+  </script>
+  <script>
+	  	if($(window).width() < 500){ 
+
+				$("#menu").removeClass("fixed");
+		}
+  </script>
+  <script>
+$(window).bind('orientationchange', function(event) {
+  	$("#menu").removeClass("fixed");
+});
   </script>
 
 </body>
