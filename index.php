@@ -83,13 +83,26 @@
 						<?php 
 							$dirB = "./img/big/";
 							$imgB = glob($dirB . "*.jpg");
+							$fileCount = count($imgB);
 
-							foreach ($imgB as $b) {
+							$dirS = "./img/s/";
+							$imgS = glob($dirS . "*.jpg");
+
+
+							/*foreach ($imgB as $b) {
 									echo "	
 										<a class='fancybox' data-fancybox-group='gallery'   href='$b'>
 											<img class='afb' src='$b' alt=''/>
 										</a>";
-							} 
+							} */
+
+							for ($i=0; $i < $fileCount; $i++) { 
+								$b = $imgB[$i];
+								$s = $imgS[$i];
+								echo "<a class='fancybox' data-fancybox-group='gallery'   href='$b'>
+										<img class='afb' src='$s' alt=''/>
+								</a>";
+							}
 						 ?>
 					</div>
 					<hr />
