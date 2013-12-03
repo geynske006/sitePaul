@@ -81,24 +81,17 @@
 				<div class="large-12 columns">
 					<div class="panel">
 						<?php 
-							$dirB = "./img/big/";
-							$imgB = glob($dirB . "*.jpg");
-							$fileCount = count($imgB);
+							$dirB = "./img/big/"; /*Directory set for bigger pics*/
+							$imgB = glob($dirB . "*.jpg"); /*get all the filenames of the pics*/
+							$fileCount = count($imgB);/*count all files in the pics-folder for later use*/
 
-							$dirS = "./img/s/";
-							$imgS = glob($dirS . "*.jpg");
+							$dirS = "./img/s/"; /*directory for the thumbnails*/
+							$imgS = glob($dirS . "*.jpg"); /*get all filenames. NOTE: needs to be exactly 
+							the same as in the big folder or loop will not work correctly*/
 
-
-							/*foreach ($imgB as $b) {
-									echo "	
-										<a class='fancybox' data-fancybox-group='gallery'   href='$b'>
-											<img class='afb' src='$b' alt=''/>
-										</a>";
-							} */
-
-							for ($i=0; $i < $fileCount; $i++) { 
-								$b = $imgB[$i];
-								$s = $imgS[$i];
+							for ($i=0; $i < $fileCount; $i++) { /*Loop @ times the total of the files in folder*/
+								$b = $imgB[$i]; /*put big pic name in var to use it in linking for gallery*/
+								$s = $imgS[$i]; /*the same shizzle as above*/
 								echo "<a class='fancybox' data-fancybox-group='gallery'   href='$b'>
 										<img class='afb' src='$s' alt=''/>
 								</a>";
